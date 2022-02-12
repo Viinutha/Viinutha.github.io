@@ -1,0 +1,176 @@
+
+
+    .container{
+        /* display: grid; */
+        /* grid-template-columns: 1fr; */
+        /* grid-template-rows: 2fr 5fr 2fr 2fr 1fr; */
+        /* grid-gap: 1rem; */
+        /* justify-content: end;  */
+        /* background-image: url("images/portfolio-background-header-53082_1080x675.jpg"); */
+    }
+    .content pre{
+        font-size: large;
+        color: white;
+    }
+    .item1{
+        height: 800px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 5fr;
+        grid-gap: 1rem;
+        justify-content: center; 
+        grid-column-start:1;
+        grid-column-end: -1; 
+        border: 5px solid rgba(13, 14, 13, 0.808);
+        border-radius: 30px;
+        /* padding: 20px; */
+        margin: 5px;
+        background-color: blanchedalmond;
+        background-image: url("/images/1.jpg");
+        
+        
+
+    }
+
+    .img{
+        height: 40px;
+    }
+    .aboutme {
+        border: 5px solid rgba(13, 14, 13, 0.808);
+        width: 1500px;
+        border-radius: 30px;
+        padding: 20px;
+        /* background-image: url("./images/istockphoto-669801368-1024x1024.jpg"); */
+        background-color: rgb(85, 77, 74);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 1rem;
+        justify-content: center; 
+    }
+    .section0{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-column-start:1;
+        grid-column-end: -1; 
+        justify-content: center;
+    }
+    .section{
+        height: 350px;
+        display:flex;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        place-items: center;
+        border-radius: 30px;
+        padding: 20px;
+        margin: 5px;
+        color: aliceblue;
+        background-color: rgba(53, 6, 33, 0.87);
+    }
+
+    .item3{
+    
+        display: flex;
+        height: 800px;
+        align-items: center;
+        justify-content: center;
+        grid-column-start:1;
+        grid-column-end: -1; 
+        justify-content: right;
+        font-size: x-large;
+        line-height: 3rem;
+        border: 5px solid rgba(13, 14, 13, 0.808);
+        border-radius: 30px;
+        padding: 20px;
+        margin: 5px;
+        background-color: blanchedalmond;
+        background-image: url("images/backgroundcontact.jpg");
+        background-repeat: no-repeat;
+        color:rgb(8, 8, 8);
+    }
+
+        .item5{
+            display:grid;
+            grid-template-columns: 1rf;
+            grid-template-rows: 1rf;
+            flex-wrap: wrap;
+            justify-content:center;  
+            font-size: larger;
+            line-height: 3rem;
+            background-image: url("images/R.jpg");
+        background-repeat: no-repeat;
+        border: 5px solid rgba(13, 14, 13, 0.808);
+        border-radius: 30px;
+        padding: 20px;
+        margin: 5px;
+
+        }
+    .container2{
+        height: 800px;
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-template-rows: 1fr 6fr 1fr;
+       font-size: x-large;
+       background-color: rgb(222, 240, 240);
+       border: 5px solid rgba(13, 14, 13, 0.808);
+        border-radius: 30px;
+        padding: 20px;
+        margin: 5px;
+    }
+    .top{
+        grid-column-start:1;
+            grid-column-end: -1;
+            display:flex;
+            flex-wrap: wrap;
+            justify-content:center; 
+           
+    }
+    .middle{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+        /* background-color: blanchedalmond; */
+    }
+    .bottom{
+        grid-column-start:1;
+            grid-column-end: -1;
+            display:flex;
+            flex-wrap: wrap;
+            justify-content:center; 
+    }
+    .high{
+        font-size: larger;
+    }
+    .headings{
+        border: 5px solid rgba(13, 14, 13, 0.808);
+        border-radius: 30px;
+        padding: 20px;
+        margin: 5px;
+        background-color: blanchedalmond;
+        color:rgb(8, 8, 8);
+    }
+    .button {
+        background-color:rgb(218, 164, 19);
+        border: none;
+        color: rgb(32, 30, 30);
+        padding: 20px 34px;
+        text-align: center;
+        border-radius: 30px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      
+     ul{
+        list-style-type: none;
+        padding: 0; 
+        margin: 0;
+      }
+     
