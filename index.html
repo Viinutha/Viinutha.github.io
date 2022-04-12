@@ -4,26 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinutha PortFolio</title>
-    <link rel = "icon" href = "/images/curriculum-vitae.png" type = "image/gif">
-    <link rel = "stylesheet" href = "./stylesheet.css" >
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap" rel="stylesheet">
+    <title>Vinutha Port Folio</title>
 </head>
+<body class="main-content">
+    <header class="section sec1 header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+        
+                <div class="h-shape"></div>
+                <div class="image"><img class="my-photo" src="./images/myphoto.jpg" alt=""></div>
+        
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    <span>Hi,I am Vinutha Nadagouni</span>
+                </h1>
+                <h3>I am Full stack Java Web Developer passionate about learning new technologies </h3>
+        
 
-<body>
-    <div class="container">
-        <div class="header">
-            <p class = "name">Vinutha Nadagouni</p>
-            <div class = "navigation">
-                <a href = "#aboutme"><p class = "navlink">ABOUT ME</p></a>   
-                <a href = "#project list"><p class = "navlink">PROJECT LIST</p></a>
-                <a href = "#contact information"><p class = "navlink">CONTACT INFORMATION</p></a>
-                <a href = "#resume"><p class = "navlink">Resume</p></a>
+        
+                <a href="https://drive.google.com/file/d/1hxwtSzbMnAadyrxpXTBfJYCqcRdlo82d/view?usp=sharing" class="main-btn">
+                    <span class="btn-text">Download CV</span>
+                    <span class="btn-icon"><i class="fa fa-download"></i></span>
+                </a>   
             </div>
         </div>
-        <div class="profile"> <img class = "profilepicture" src = "./images/vinuthaimage.jpg" alt="photo"></div>
-        <div class="aboutme"> 
-            <Pre>
-                <h1 class="headings">                  About Me</h1>
+    </header>
+    <main>
+        <section class="section sec2 about" id="about">
+            <div class="main-title">
+                <h2><span>About me</span></h2>
+            </div> 
+            <div class="about-container">   
+                <p>
                 I did my bachelors in "Electronics and Communication Engineering",
                 and then I worked as Embedded Engineer for two years where we
                 used C,Embedded C to program Microcontrollers and then I moved 
@@ -31,73 +49,221 @@
                 to work, I feel that with my good logical thinking and my past 
                 experience as Embedded Engineer I joined "We Can Code It" boot 
                 camp which is 14 weeks of training on java, HTML, CSS, JavaScript,
-                Spring after that I felt more confident myself as Software developer.</P>
-            </Pre>
-        </div>
-        <div class="project">
-            <h3>Project List</h3>
-            <div class="projectlist">
-                <div class="projectsection">
-                    <p class="projectname">Method Completion</p>
-                    <a href="/images/contactbackground.jpg" target="_blank">
-                        <img class="projectpicture" src= "./images/contactbackground.jpg" alt="picture of method"/>
-                    </a>
-                    <p class="description">project description</p>
-                </div>
-                <div class="projectsection">
-                    <p class="projectname">Gaming Loop</p>
-                    <a href="/images/contactbackground.jpg" target="_blank">
-                        <img class="projectpicture" src= "./images/contactbackground.jpg" alt="picture of method"/>
-                    </a>
-                    <p class="description">project description</p>
-                </div>
-                <div class="projectsection">
-                    <p class="projectname">Virtual Pet</p>
-                    <a href="/images/contactbackground.jpg" target="_blank">
-                        <img class="projectpicture" src= "./images/contactbackground.jpg" alt="picture of method"/>
-                    </a>
-                    <p class="description">project description</p>
-                </div>
-            </div>
-            
-        </div>
-        <div class="skill">
-            <p>
-                HTML | CSS | JAVA | SPRING.
+                Spring after that I felt more confident myself as Software developer.
             </p>
         </div>
-        <div class="footer">
-            <div class = "personalinformation">
-                <div class = "personal">
-                    <div class="personallink">
-                        <img src = "./images/email-app-icons.png" alt = "image" class = "img">
-                        <p>vinutha418@gmail.com</p>
-                    </div> 
-                    <div class ="personallink">
-                        <img src = "./images/maps-and-flags.png" alt="image" class = "img">
-                        <p>Cleveland, Ohio</p>
+        <div class="about-stats">
+            <h3 class="stat-title">
+                My Skills
+            </h3>
+            <div class="progress-bars">
+                
+                <p class="prog-title"><img class="icon-image" src="./images/java.png" alt=""></img></i>Java</p>
+                <div class="progress-con">
+                    <p class="prog text">70%</p>
+                    <div class="progress">
+                        
+                        <span class="java"></span>
                     </div>
                 </div>
-                <div class="social">
-                    <div class = "personallink">   
-                        <a href = "https://github.com/Viinutha">
-                            <img src = "./images/GitHub_logo.png" alt = "image" class = "img">
-                        </a>
-                    </div>  
-                    <div class = "personallink">    
-                        <a href = "https://www.linkedin.com/in/vinuthanadagouni/">
-                            <img src = "/images/Linkedin2.png" alt = "image" class = "img">
-                        </a>
-                    </div>
-                    <div class = "personallink">    
-                        <a href = "https://docs.google.com/document/d/1RP_J8p_3EXgMiN-7F0Tb78QaLhra4YfQvghLJ--UETM/edit#">
-                            <img src = "/images/resume.png" alt = "image" class = "img">
-                        </a>
+
+            </div>
+            <div class="progress-bars">
+                <p class="prog-title"><img class="icon-image" src="./images//springboot.png"></img>Spring Boot</p>
+                <div class="progress-con">
+                    <p class="prog text">60%</p>
+                    <div class="progress">
+                        <span class="spring-boot"></span>
                     </div>
                 </div>
-            </div>      
+
+            </div>
+            <div class="progress-bars">
+                <p class="prog-title"><img class="icon-image" src="./images/javascript.png"></img>java script</p>
+                <div class="progress-con">
+                    <p class="prog text">60%</p>
+                    <div class="progress">
+                        <span class="java-script"></span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="progress-bars">
+                <p class="prog-title"><img class="icon-image" src="./images/html.png"></img>Html5</p>
+                <div class="progress-con">
+                    <p class="prog text">70%</p>
+                    <div class="progress">
+                        <span class="html"></span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="progress-bars">
+                <p class="prog-title"><img class="icon-image" src="./images/css.png"></img>CSS</p>
+                <div class="progress-con">
+                    <p class="prog text">60%</p>
+                    <div class="progress">
+                        <span class="css"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    
+        </section>
+        <section class="section sec3 portfolio" id="portfolio">
+            <div class="main-title">
+                <h2><span>My Projects</span><span class="bg-text">List</span></span></h2>
+            </div>
+            <p class="port-text">
+               
+            </p>
+            <div class="portfolios">
+                <div class="portfolio-item">
+                    <p>Donut Clicker</p>
+                    <div class="project-image project3">
+                        <img class="project-image" src="./images/donut-clicker.jpg"></img>
+                    </div>
+                    <div class="hover-items">
+                       <h3>Git Hub link:</h3>
+                       <div class="icons">
+                           <a href="https://github.com/2022-Spring-Cohort/donut-maker-Viinutha" target="_blank">
+                                <img class="icon-image" src="./images//github.png" alt=""></img>
+                            </a>
+                       </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <p>Mastery-Project</p>
+                    <div class="project-image project3">
+                        <img class="project-image" src="./images/masteryproject.jpg"></img>
+                    </div>
+                    <div class="hover-items">
+                       <h3>Git Hub link:</h3>
+                       <div class="icons">
+                           <a href="https://github.com/2022-Spring-Cohort/mastery-Viinutha" target="_blank">
+                                <img class="icon-image" src="./images//github.png" alt=""></img>
+                            </a>
+                       </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <p>Album-song-review</p>
+                    <div class="project-image project3">
+                        <img class="project-image" src="./images/album.jpg"></img>
+                    </div>
+                    <div class="hover-items">
+                       <h3>Git Hub link:</h3>
+                       <div class="icons">
+                           <a href="https://github.com/2022-Spring-Cohort/album-songs-api-adagio" target="_blank">
+                                <img class="icon-image" src="./images//github.png" alt=""></img>
+                            </a>
+                       </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <p>Art Review</p>
+                    <div class="project-image project3">
+                        <img class="project-image" src="./images/art-review.jpg"></img>
+                    </div>
+                    <div class="hover-items">
+                       <h3>Git Hub link:</h3>
+                       <div class="icons">
+                           <a href="https://github.com/2022-Spring-Cohort/review-site-art-review" target="_blank">
+                                <img class="icon-image" src="./images//github.png" alt=""></img>
+                            </a>
+                       </div>
+                    </div>
+                </div>
+           
+           
+              
+        </div>
+        </section>
+        <section class="section sec4 blogs" id="education">
+            <div class="timeline">
+            <div class="container left">
+                <div class="Java-Boot-Camp">
+                  <h2>2022</h2>
+                  <p>Graduated Java full stack boot camp from <span>We Can Code It</span> in April 2022 </p>
+                </div>
+              </div>
+              <div class="container right">
+                <div class="bachelor">
+                  <h2>2011</h2>
+                  <p>Finished my bachelors in Electronics and Communication Engineering in India from <span>Dr.K.V.Subba Reddy College Of Engineering</span>in June 2011 </p>
+                </div>
+              </div>
+            </div>
+        </section>
+        <section class="section sec5 contact" id="contact">
+            <div class="email main">
+                <div>
+                    <img class="icon" src="./images/email.png"></img>
+                </div>
+                <div>
+                    <p>vinutha418@gmail.com</p>
+                </div>
+            </div>
+            <div class="location main">
+                <div>
+                    <img class="icon" src="./images/location.png"></img>
+                </div>
+                <div>
+                    <p>Avon,Ohio</p>
+                </div>
+
+
+            </div>
+            <div class="github main">
+                <div>
+                <img class="icon" src="./images/git.png" alt=""></img>
+                </div>
+                <div>
+                    <p><a href="https://github.com/Viinutha">github</a></p>
+                </div>
+
+            </div>
+            <div class="linkedin main">
+                <div>
+                <img class="icon" src="./images/linkedin.png"></img>
+                </div>
+                <div>
+                    <p><a href="https://www.linkedin.com/in/vinuthanadagouni/">linkedin</a></p>
+                </div>
+                
+
+            </div>
+
+
+
+        </section>
+    </main>
+    <div class="controlls">
+        <div class="control control-1 active-btn" data-id="home">
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control control-2" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control control-3" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+    
+        </div>
+        <div class="control control-4" data-id="education">
+            <i class="fas fa-graduation-cap"></i>
+    
+        </div>
+        <div class="control control-5" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
         </div>
     
     </div>
+
+    <script src="./app.js" type="module">
+
+    </script>
 </body>
 </html>

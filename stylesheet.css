@@ -15,9 +15,10 @@
 }
 .header{
     grid-area: header;
-    display: flex;
+    text-align: center;
+    /* display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between; */
     background-image: url("images/backgroundcontact.jpg");
 }
 .name{
